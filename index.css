@@ -1,0 +1,238 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* Mobile navigation style used checkbox trick to make
+clickable icon to show menu from the left */
+
+.mobile-nav {
+    background-color:#F8F9FA;
+    height: 4rem;
+    width: 100%;
+}
+
+.mobile-nav ul {
+    list-style: none;
+    float: left;
+    margin-right: 1rem;
+}
+
+.mobile-nav ul li {
+    display: inline-block;
+    line-height: 4vh;
+    padding: 0.5rem;
+}
+
+.mobile-nav ul li a {
+    text-decoration: none;
+    color:#212529;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.mobile-nav ul li a:hover {
+    color: lightblue;
+    transition: 0.3s;
+}
+
+.checkbtn {
+    font-size: 3rem;
+    color:#212529;
+    float: left;
+    line-height: 5vh;
+    margin-right:0;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media only screen and (max-width: 952px) {
+    .mobile-nav ul li a {
+        font-size: 1rem;
+     }
+
+}
+
+@media only screen and (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color:#F8F9FA;
+        top: 80px;
+        left: -100%;
+        text-align:center;
+        transition: all 0.5s;
+    }
+
+    .mobile-nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+    }
+
+    .mobile-nav ul li a {
+        font-size: 20px;
+        color:#212529;
+    }
+
+    nav ul li a:hover {
+        color: lightblue;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+}
+
+/* Body styles */
+body {
+    background-color: #F8F9FA;
+}
+
+/* Main content styles (mobile first) */
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    padding: 1rem;
+
+}
+
+.box {
+    width: 100%;
+    background-color: #343A40;
+    border-radius: 20px;
+    padding: 1rem;
+    
+}
+
+.welcomem {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #F8F9FA;
+    font-size: 10vw;
+    min-height: 50vh;
+}
+
+.homep {
+    color: #F8F9FA;
+    font-size: 5vw;
+    margin-bottom: 2rem;
+}
+
+
+
+/* Footer styles (mobile first) */
+#social {
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    list-style: none;
+    margin: 1rem;
+    
+}
+
+#social li > a {
+    color: #212529;
+    text-decoration: none;
+    width: 100%;
+    
+}
+/* social list ref hover color */
+#social li > a:hover {
+    color: lightblue;
+    transition: color 0.2s;
+}
+
+/* Social icon customisation */
+#social li .social-icon {
+    font-size: 5rem; 
+    color:#343A40
+}
+
+@media only screen and (max-width: 858px) {
+
+    footer {
+        text-align: center;
+    }
+    #social {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1rem;
+        right: 100%
+    }
+
+    #social li {
+        margin: 0 1rem;
+
+    }
+
+    #social li .social-icon {
+        font-size: 3rem;
+    }
+}
+
+
+/* @media only screen and (min-width: 401px) {
+    #social li.social-icon {
+        font-size: 8rem; 
+    }
+
+    .box {
+        width: 60%;
+        padding: 1rem;
+        font-size: 2vw;
+        
+    }
+
+}
+@media only screen and (min-width:701px) {
+    #social li.social-icon {
+        font-size: 10rem; 
+    }
+
+    .box {
+        width:60%;
+    }
+
+    .welcomem {
+        font-size: 8vw;
+        justify-content: center;
+        align-items: center;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

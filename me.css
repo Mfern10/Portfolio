@@ -1,0 +1,109 @@
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* Navigation styles (mobile first) */
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 1rem;
+}
+
+.nav-list li {
+    display: block; 
+    margin-bottom: 1rem;
+}
+
+
+.nav-list li > a {
+    text-decoration: none;
+    color: #343A40; 
+    font-size: 150%;
+    padding: 0.5rem;
+}
+/* ADD MEDIA BREAK FOR LARGER SCREENS HERE! */
+
+/* Nav list ref hover color */
+.nav-list li >a:hover {
+    color: lightblue;
+    transition: color 0.2s;
+}
+
+/* Body styles */
+body {
+    background-color: #F8F9FA;
+}
+
+/* Main content styles (mobile first) */
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    padding: 1rem;
+}
+
+.box {
+    width: 100%;
+    background-color: #343A40;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.aboutme {
+    color: #F8F9FA;
+    font-size: 8vw;
+    min-height: 50vh;
+
+}
+
+
+
+/* Footer styles (mobile first) */
+#social {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    list-style: none;
+    margin: 1rem;
+}
+
+#social li > a {
+    color: #212529;
+    text-decoration: none;
+    
+}
+/* social list ref hover color */
+#social li > a:hover {
+    color: lightblue;
+    transition: color 0.2s;
+}
+
+/* Social icon customisation */
+#social li .social-icon {
+    font-size: 5rem; 
+
+}
+
+@media only screen and (min-width: 701px) {
+    #social li.social-icon {
+        font-size: 10rem; 
+    }
+
+    .box {
+        width: 60%;
+        min-height: 70vh
+
+    }
+
+    .aboutme {
+        font-size: 1.5vw
+    }
+}
