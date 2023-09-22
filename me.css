@@ -121,13 +121,17 @@ body {
 .aboutme {
     color: #F8F9FA;
     font-size: 8vw;
-    min-height: 75vh;
+    min-height: 70vh;
 }
 
 
 /* Footer styles (mobile first) */
 
-
+footer {
+    display: inline-block;
+    width: 100%;
+    bottom: 0;
+}
 
 .social {
     display: flex;
