@@ -52,14 +52,13 @@ clickable icon to show menu from the left */
     display: none;
 }
 
-@media only screen and (max-width: 952px) {
+@media only screen and (max-width: 701px) {
     .mobile-nav ul li a {
         font-size: 1rem;
      }
-
 }
 
-@media only screen and (max-width: 858px) {
+@media only screen and (max-width: 401px) {
     .checkbtn {
         display: block;
     }
@@ -79,7 +78,6 @@ clickable icon to show menu from the left */
         display: block;
         margin: 50px 0;
         line-height: 30px;
-
     }
 
     .mobile-nav ul li a {
@@ -108,9 +106,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-height: 60vh;
+    min-height: 50vh;
     padding: 1rem;
-
 }
 
 .box {
@@ -167,25 +164,7 @@ body {
     color:#343A40
 }
 
-@media only screen and (max-width: 858px) {
-    #social {
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 1rem;
-        right: 100%
-    }
-
-    #social li {
-        margin: 0 1rem;
-
-    }
-
-    #social li .social-icon {
-        font-size: 3rem;
-    }
-}
-
-
+/* Social MQ's  */
 @media only screen and (min-width: 401px) {
     #social li.social-icon {
         font-size: 8rem; 
@@ -209,9 +188,14 @@ body {
     }
 
     .welcomem {
-        font-size: 8vw;
+        font-size: 6vw;
         justify-content: center;
         align-items: center;
+    }
+
+    .homep {
+        font-size: 4vw;
+        margin: 5rem
     }
 }
 
