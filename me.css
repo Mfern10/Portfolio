@@ -7,32 +7,93 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-/* Navigation styles (mobile first) */
-.nav-list {
-    display: flex;
-    flex-wrap: wrap;
+/* Mobile navigation style used checkbox trick to make
+clickable icon to show menu from the left */
+
+.mobile-nav {
+    background-color:#F8F9FA;
+    height: 4rem;
+    width: 100%;
+}
+
+.mobile-nav ul {
     list-style: none;
-    margin: 1rem;
+    float: left;
+    margin-right: 1rem;
 }
 
-.nav-list li {
-    display: block; 
-    margin-bottom: 1rem;
-}
-
-
-.nav-list li > a {
-    text-decoration: none;
-    color: #343A40; 
-    font-size: 150%;
+.mobile-nav ul li {
+    display: inline-block;
+    line-height: 4vh;
     padding: 0.5rem;
 }
-/* ADD MEDIA BREAK FOR LARGER SCREENS HERE! */
 
-/* Nav list ref hover color */
-.nav-list li >a:hover {
+.mobile-nav ul li a {
+    text-decoration: none;
+    color:#212529;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.mobile-nav ul li a:hover {
     color: lightblue;
-    transition: color 0.2s;
+    transition: 0.3s;
+}
+
+.checkbtn {
+    font-size: 3rem;
+    color:#212529;
+    float: left;
+    line-height: 5vh;
+    margin-right:0;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media only screen and (max-width: 701px) {
+    .mobile-nav ul li a {
+        font-size: 1rem;
+     }
+}
+
+@media only screen and (max-width: 401px) {
+    .checkbtn {
+        display: block;
+    }
+
+    .mobile-nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color:#F8F9FA;
+        top: 80px;
+        left: -100%;
+        text-align:center;
+        transition: all 0.5s;
+    }
+
+    .mobile-nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .mobile-nav ul li a {
+        font-size: 20px;
+        color:#212529;
+    }
+
+    .mobile-nav ul li a:hover {
+        color: lightblue;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
 }
 
 /* Body styles */
@@ -60,47 +121,71 @@ body {
 .aboutme {
     color: #F8F9FA;
     font-size: 8vw;
-    min-height: 50vh;
-
+    min-height: 75vh;
 }
 
 
-
 /* Footer styles (mobile first) */
-#social {
+
+
+
+.social {
     display: flex;
-    align-items: flex-end;
     justify-content: center;
     list-style: none;
     margin: 1rem;
 }
 
-#social li > a {
+.social li > a {
     color: #212529;
     text-decoration: none;
     
 }
 /* social list ref hover color */
-#social li > a:hover {
+.social li > a:hover {
     color: lightblue;
     transition: color 0.2s;
 }
 
 /* Social icon customisation */
-#social li .social-icon {
+.social li .social-icon {
     font-size: 5rem; 
 
 }
 
-@media only screen and (min-width: 701px) {
-    #social li.social-icon {
+/* Social MQ's  */
+@media only screen and (min-width: 401px) {
+    .social li.social-icon {
+        font-size: 8rem; 
+    }
+
+    .box {
+        width: 100%;
+        padding: 1rem;
+        font-size: 2vw;
+    }
+}
+
+/* Tablet size */
+@media only screen and (min-width:701px) {
+    .social li.social-icon {
         font-size: 10rem; 
     }
 
     .box {
-        width: 60%;
-        min-height: 70vh
+        width:90%;
+    }
 
+    .aboutme {
+        font-size: 4vw;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* Desktop and bigger screens */
+@media only screen and (min-width: 850px ) {
+    .box {
+        width: 60%
     }
 
     .aboutme {
