@@ -51,14 +51,15 @@ clickable icon to show menu from the left */
 #check {
     display: none;
 }
-
+/* This sizing of menu is both applicable for tablet and desk top */
 @media only screen and (max-width: 701px) {
     .mobile-nav ul li a {
         font-size: 1rem;
      }
 }
-
-@media only screen and (max-width: 401px) {
+/* This view has a media block to make the navigation become a hamburger and slide out menu
+perfect for mobile and tablet viewing */
+@media only screen and (max-width: 416px) {
     .checkbtn {
         display: block;
     }
@@ -100,33 +101,86 @@ body {
     background-color: #F8F9FA;
 }
 
-/* FOR MAIN CONTENT CSS */
-
+/* FOR MAIN CONTENT and ARTICLE STYLING */
+/* applied flex to container for responsiveness */
 .container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
 
     
 }
 
 .box {
-    background-color: #343A40;
-    width:100%;
+    display: flex;
+    background-color: transparent;
     min-height: 20vh;
     margin-top: 1em;
+    border: 2px solid #343A40;
+    border-radius: 20px;
+    margin: 1rem;
     
     
     
 }
 
 h1 {
-    color:#343A40
+    color: #343A40;
+    font-size: 4rem;
+    text-align: center;
 }
 
-h3, p {
-    color:#F8F9FA;
+.project-icon {
+    color:#343A40;
+    font-size: 5rem;
+    float: left;
+    
+    
+}
+
+.project-icon:hover {
+    color: lightblue;
+    transition: 0.2s;
+}
+
+.mywork {
+    font-size: 1.1rem;
+    padding: 0.5rem
+    
+}
+/* MQ for above mobile sizing. */
+@media only screen and (min-width: 401px) {
+    .mywork {
+        font-size: 1.2rem;
+    }
+    .box {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+/* Desktop and Larger screens. */
+@media only screen and (min-width: 701px) {
+    .mywork {
+        font-size: 1.5rem;
+    }
+
+    .box {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .mywork {
+        font-size: 1.8rem;
+    }
+
+    .box {
+        display: flex;
+        flex-wrap: nowrap;
+    }
 }
 
 
