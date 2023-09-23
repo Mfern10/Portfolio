@@ -62,7 +62,7 @@ clickable icon to show menu from the left */
     .checkbtn {
         display: block;
     }
-
+/* applied Zindex to hide logos */
     .mobile-nav ul {
         position: fixed;
         width: 100%;
@@ -72,6 +72,7 @@ clickable icon to show menu from the left */
         left: -100%;
         text-align:center;
         transition: all 0.5s;
+        z-index: 5000;
     }
 
     .mobile-nav ul li {

@@ -115,20 +115,22 @@ body {
 
 .box {
     display: flex;
-    background-color: transparent;
-    min-height: 20vh;
+    background-color: #343A40;
+    min-height: 10vh;
     margin-top: 1em;
-    border: 2px solid #343A40;
-    border-radius: 20px;
     margin: 1rem;
-    
-    
-    
+    border-radius: 20px;
 }
 
 h1 {
     color: #343A40;
     font-size: 4rem;
+    text-align: center;
+}
+
+h2 {
+    color:#343A40;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -146,12 +148,19 @@ h1 {
 }
 
 .mywork {
-    font-size: 1.1rem;
-    padding: 0.5rem
+    text-align: center;
+    color:#F8F9FA;
+    font-size: 1.5rem;
+    padding: 1rem;
+    
+}
+
+.blog-image {
+    border-radius: 50%;
     
 }
 /* MQ for above mobile sizing. */
-@media only screen and (min-width: 401px) {
+@media only screen and (min-width: 375px) {
     .mywork {
         font-size: 1.2rem;
     }
@@ -170,6 +179,7 @@ h1 {
     .box {
         display: flex;
         flex-wrap: nowrap;
+        
     }
 }
 
@@ -237,32 +247,5 @@ footer {
         width: 100%;
         padding: 1rem;
         font-size: 2vw;
-    }
-}
-
-/* Tablet size */
-@media only screen and (min-width:701px) {
-    .social li.social-icon {
-        font-size: 10rem; 
-    }
-
-    .box {
-        width:90%;
-    }
-
-    .aboutme {
-        font-size: 4vw;
-        justify-content: center;
-        align-items: center;
-    }
-}
-/* Desktop and bigger screens */
-@media only screen and (min-width: 850px ) {
-    .box {
-        width: 60%
-    }
-
-    .aboutme {
-        font-size: 1.5vw
     }
 }

@@ -73,6 +73,7 @@ clickable icon to show menu from the left */
         left: -100%;
         text-align:center;
         transition: all 0.5s;
+        z-index: 5000;
     }
 
     .mobile-nav ul li {
