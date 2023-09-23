@@ -55,6 +55,7 @@ clickable icon to show menu from the left */
 @media only screen and (max-width: 701px) {
     .mobile-nav ul li a {
         font-size: 1rem;
+        
      }
 }
 /* This view has a media block to make the navigation become a hamburger and slide out menu
@@ -164,9 +165,28 @@ h2 {
     .mywork {
         font-size: 1.2rem;
     }
+    
     .box {
         display: flex;
+        flex-direction: row;
         flex-wrap: nowrap;
+        justify-content: center;
+        
+        max-width: 50%
+        
+    }
+
+    .blog-image {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-content: flex-start;
+        width: 100%;
     }
 }
 
@@ -190,7 +210,7 @@ h2 {
 
     .box {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
 }
 
