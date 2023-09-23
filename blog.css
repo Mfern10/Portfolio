@@ -133,6 +133,7 @@ h2 {
     color:#343A40;
     font-size: 2rem;
     text-align: center;
+    text-decoration: underline;
 }
 
 .project-icon {
@@ -171,8 +172,9 @@ h2 {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
+        max-width: 20%;
+        margin: 2rem
         
-        max-width: 50%
         
     }
 
@@ -199,6 +201,7 @@ h2 {
     .box {
         display: flex;
         flex-wrap: nowrap;
+        width: 
         
     }
 }
