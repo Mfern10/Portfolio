@@ -137,6 +137,8 @@ h5 {
 }
 
 .post-container {
+    display: flex;
+    flex-wrap: nowrap;
     margin: 2rem;
     background-color:#212529;
     border-radius: 20px;
@@ -148,10 +150,15 @@ h5 {
 }
 
 p {
+    text-align: center;
     padding: 1rem;
     color:#F8F9FA;
     font-size: 1.3rem;
 }
+
+
+
+
 
 
 
