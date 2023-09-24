@@ -10,6 +10,8 @@
 clickable icon to show menu from the left */
 
 .mobile-nav {
+    position: fixed;
+    top: 0;
     background-color:#F8F9FA;
     /* height: 4rem; */
     width: 100%;
