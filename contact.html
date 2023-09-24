@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lan="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Contact me</title>
+  <link rel="stylesheet" href="contact.css">
+ </head>
+ <body>
+    <header>
+        <nav class="mobile-nav">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+            <ion-icon name="menu-outline"></ion-icon>
+            </label>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="me.html">ME</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a> </li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="title">Contact Form</h1>
+            <p id="description">Thank you for getting in contact.</p>
+        <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Name:<input placeholder="Enter your name" id="name" required></input></label>
+            <label id="email-label">Email:<input placeholder="Enter your email address" id="email" type="email" required></input></label>
+        </fieldset>
+        <fieldset>
+            <label id="name-label">How did you hear about us?<select id="dropdown"><option id="option 1">Please Select an option</option><option id="option 2">Facebook</option><option id="option 3">Instagram</option><option id="option 4">Google</option></select>
+        </fieldset>
+        <fieldset>
+            <label for="advice"> How can we improve your experience?</label>
+            <textarea id="Advice" name="advice" rows="3" cols="30" placeholder="Tell us what we can do to make your experience better..."></textarea>
+        </fieldset>
+      
+        <button type="submit" id="submit">Send</button>
+    </form>
+    </main>
+    <footer>
+        <ul class="social">
+            <li><a class="social-icon" href="https://twitter.com/MitchDFernandez"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a class="social-icon" href="https://github.com/Mfern10"><ion-icon name="logo-github"></ion-icon></a></li>
+            <li><a class="social-icon" href="https://www.linkedin.com/in/mitchell-fernandez-70a1b1286/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        </ul>
+    </footer>
+        
+        
+    <!-- This is a script that allows me to use icone for the footer -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ </body>
+</html>
