@@ -1,4 +1,10 @@
-
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 /* Body styles */
 body {
@@ -13,6 +19,7 @@ body {
     align-items: center;
     min-height: 50vh;
     padding: 1rem;
+    margin-top: 7rem;
 }
 
 .box {
@@ -44,14 +51,14 @@ body {
     margin-bottom: 2rem;
 }
 
-
-
-
-
+.profile-img {
+    border-radius: 50%;
+}
 
 /* Footer styles (mobile first) */
 
 footer {
+    
     display: inline-block;
     width: 100%;
     bottom: 0;
@@ -103,7 +110,7 @@ footer {
 
     .box {
         width:60%;
-        min-height: 75vh;
+        min-height: 70vh;
     }
 
     .welcomem {

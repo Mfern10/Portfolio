@@ -13,8 +13,8 @@ clickable icon to show menu from the left */
     position: fixed;
     top: 0;
     background-color:#F8F9FA;
-    /* height: 4rem; */
     width: 100%;
+    z-index: 5000;
 }
 
 .mobile-nav ul {

@@ -18,10 +18,12 @@ h1 {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: bold;
     width: 100vw;
     margin-bottom: 3rem;
+    margin-top: 7rem;
+    color:#212529;
 }
 
 h2 {
@@ -43,7 +45,7 @@ h5 {
     display: flex;
     flex-wrap: nowrap;
     margin: 2rem;
-    background-color:#212529;
+    background-color: #343A40;
     border-radius: 20px;
     
 }
