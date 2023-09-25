@@ -14,6 +14,7 @@ body {
     min-height: 60vh;
     padding: 1rem;
     
+    
 }
 
 .box {
@@ -27,6 +28,24 @@ body {
     color: #F8F9FA;
     font-size: 8vw;
     min-height: 70vh;
+    text-align: center;
+    
+}
+
+a {
+    display:flex;
+    justify-content: center;
+    color:#F8F9FA;
+    font-size: 2rem;
+    margin: 1rem 0 0 0;
+    
+    
+
+}
+
+
+.resume-icon {
+    font-size: 3rem;
 }
 
 h1 {
