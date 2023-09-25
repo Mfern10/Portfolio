@@ -10,15 +10,18 @@ body {
   background-color: #f8f9fa;
 }
 
-h1 
-
-main {
-  margin-top: 7rem;
+h1 {
+    margin-top: 7rem;
+    text-align: center;
+    color:#343a40;
+    font-size: 4rem;
 }
+
 
 form {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   padding: 0.5rem;
 }
@@ -30,16 +33,31 @@ label {
 
 .form-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background: #343a40;
   border-radius: 20px;
   margin: 1rem;
+
+  
 }
 
 input[type="email"],
 textarea, input[type="name"] {
   background-color: #f8f9fa
 }
+
+@media only screen and (min-width: 850px) {
+    .form-container {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       
+        
+    }
+}
+
 
 /* FOR SOCIAL CSS */
 /* Footer styles (mobile first) */
