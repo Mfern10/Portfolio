@@ -6,7 +6,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* Body styles */
+/* Background color */
 body {
     background-color: #F8F9FA;
 }
@@ -30,6 +30,8 @@ body {
     
 }
 
+
+
 .welcomem {
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +39,7 @@ body {
     justify-content: center;
     color: #F8F9FA;
     font-size: 10vw;
-    min-height: 40vh;
+    margin: 1rem;
     
 }
 
@@ -48,11 +50,19 @@ body {
     justify-content: center;
     color: #F8F9FA;
     font-size: 5vw;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .profile-img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: center;
     border-radius: 50%;
+}
+
+img {
+    border-radius: 50%
 }
 
 /* Footer styles (mobile first) */

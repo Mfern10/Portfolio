@@ -57,13 +57,13 @@ clickable icon to show menu from the left */
 /* This sizing of menu is both applicable for tablet and desk top */
 @media only screen and (max-width: 701px) {
     .mobile-nav ul li a {
-        font-size: 1rem;
+        font-size: 2rem;
         
      }
 }
 /* This view has a media block to make the navigation become a hamburger and slide out menu
 perfect for mobile and tablet viewing */
-@media only screen and (max-width: 416px) {
+@media only screen and (max-width: 701px) {
     .checkbtn {
         display: block;
     }
