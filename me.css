@@ -13,7 +13,7 @@ body {
     align-items: center;
     min-height: 60vh;
     padding: 1rem;
-    margin-top: 7rem;
+    
 }
 
 .box {
@@ -27,6 +27,26 @@ body {
     color: #F8F9FA;
     font-size: 8vw;
     min-height: 70vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    color:#343A40;
+    margin-top: 7rem;
+}
+
+.profile-img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+img {
+    border-radius: 50%;
+    margin: 1rem;
+    border: 0.5rem solid #F8F9FA;
 }
 
 
@@ -62,31 +82,35 @@ footer {
 
 }
 
-/* Social MQ's  */
+/* Responsive MQ's  */
 @media only screen and (min-width: 401px) {
     .social li.social-icon {
         font-size: 8rem; 
     }
 
     .box {
-        width: 100%;
+        width: 90%;
         padding: 1rem;
-        font-size: 2vw;
+        
+    }
+
+    .aboutme {
+        font-size: 2rem;
     }
 }
 
 /* Tablet size */
 @media only screen and (min-width:701px) {
     .social li.social-icon {
-        font-size: 10rem; 
+        font-size: 8rem; 
     }
 
     .box {
-        width:90%;
+        width:80%;
     }
 
     .aboutme {
-        font-size: 6vw;
+        font-size: 2rem;
         justify-content: center;
         align-items: center;
     }
@@ -98,6 +122,6 @@ footer {
     }
 
     .aboutme {
-        font-size: 2vw
+        font-size: 2rem;
     }
 }
