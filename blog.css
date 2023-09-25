@@ -16,14 +16,25 @@ body {
     
 }
 
-.box {
+.blog-container {
+    background-color: #343A40;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 1rem;
+}
+
+
+/* .box {
     display: flex;
     background-color: #343A40;
     min-height: 10vh;
     margin-top: 1em;
     margin: 1rem;
     border-radius: 20px;
-}
+} */
 
 h1 {
     color: #343A40;
@@ -33,23 +44,18 @@ h1 {
 }
 
 h2 {
-    color:#343A40;
-    font-size: 2rem;
+    color:#F8F9FA;
+    font-size: 3rem;
     text-align: center;
     text-decoration: underline;
 }
 
-.project-icon {
-    color:#343A40;
-    font-size: 5rem;
-    float: left;
-    
-    
+a {
+    color:#F8F9FA;
 }
 
-.project-icon:hover {
+a:hover {
     color: lightblue;
-    transition: 0.2s;
 }
 
 .mywork {
@@ -62,6 +68,8 @@ h2 {
 
 .blog-image {
     border-radius: 50%;
+    margin: 1rem;
+    border: 0.5rem solid #F8F9FA;
     
 }
 /* MQ for above mobile sizing. */
@@ -70,13 +78,12 @@ h2 {
         font-size: 1.2rem;
     }
     
-    .box {
+    .blog-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
-        min-width: 20%;
-        max-width: 20%;
+        max-width: 90%;
         margin: 2rem;
         
         
@@ -102,12 +109,12 @@ h2 {
         font-size: 1.5rem;
     }
 
-    .box {
+    .blog-container {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        min-width: 90%;
+        min-width: 60%;
         
         }
 }
