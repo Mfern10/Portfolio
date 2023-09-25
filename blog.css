@@ -67,9 +67,10 @@ a:hover {
 }
 
 .blog-image {
-    border-radius: 50%;
+    border-radius: 20%;
     margin: 1rem;
     border: 0.5rem solid #F8F9FA;
+    
     
 }
 /* MQ for above mobile sizing. */
