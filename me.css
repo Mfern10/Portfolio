@@ -27,7 +27,7 @@ body {
 .aboutme {
     color: #F8F9FA;
     font-size: 8vw;
-    min-height: 70vh;
+    min-height: 30vh;
     text-align: center;
     
 }
@@ -145,6 +145,6 @@ footer {
     }
 
     .aboutme {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
