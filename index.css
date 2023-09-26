@@ -101,7 +101,7 @@ footer {
     font-size: 5rem; 
 }
 
-/* Social MQ's  */
+/* Responsiveness  MQ's  */
 @media only screen and (min-width: 401px) {
     #social li.social-icon {
         font-size: 8rem; 
@@ -109,7 +109,7 @@ footer {
     }
 
     .box {
-        width: 100%;
+        width: 90%;
         padding: 1rem;
         font-size: 2vw;
         
