@@ -67,10 +67,27 @@ I have included a Screenshot of each page and its mobile version.
 
 
 # Wireframes
+## Home
+![wireframes](docs/wireframes/homewireframe.png)
+![wireframes](docs/wireframes/mobilehomewireframe.png)
 
-![wireframes](docs/wireframes.pdf)
+## Mobile Navigation 
+![mobilenavigation](docs/wireframes/mobilenavwireframe.png)
 
+## ME
+![mewireframe](docs/wireframes/mewireframe.png)
 
+## PORTFOLIO
+![portfoliowireframe](docs/wireframes/portfoliowireframe.png)
+
+## BLOG LIST
+![bloglist](docs/wireframes/bloglistwireframe.png)
+
+## BLOG POSTS
+![blogpostswireframe](docs/wireframes/blogpostswireframe.png)
+
+## CONTACT
+![contactwireframe](docs/wireframes/contactpagewireframe.png)
 
 # Target Audience 
 
