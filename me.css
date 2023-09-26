@@ -48,6 +48,10 @@ a {
     font-size: 3rem;
 }
 
+a:hover {
+    color: lightblue;
+}
+
 h1 {
     text-align: center;
     font-size: 4rem;
