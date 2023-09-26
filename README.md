@@ -66,6 +66,11 @@ I have included a Screenshot of each page and its mobile version.
 ![mobilenaviagtion](docs/navmobile.png)
 
 
+# Wireframes
+
+![wireframes](docs/wireframes.pdf)
+
+
 
 # Target Audience 
 
