@@ -52,32 +52,33 @@ h1 {
 }
 
 .mywork {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     padding: 0.5rem;
     color:#F8F9FA
-    
-    
-}
-/* MQ for above mobile sizing. */
-@media only screen and (min-width: 401px) {
-    .mywork {
-        font-size: 1.2rem;
-    }
-    .box {
-        display: flex;
-        flex-wrap: nowrap;
-    }
 }
 
-/* Desktop and Larger screens. */
-@media only screen and (min-width: 701px) {
+/* MQ for above mobile sizing. */
+@media only screen and (min-width: 401px) {
     .mywork {
         font-size: 1.5rem;
     }
 
     .box {
-        display: flex;
-        flex-wrap: nowrap;
+        width: 100%;
+        padding: 1rem;
+        font-size: 2vw;
+    }
+
+}
+
+/* Desktop and Larger screens. */
+@media only screen and (min-width: 701px) {
+    .mywork {
+        font-size: 1.8rem;
+    }
+
+    .box {
+        width:90%;
     }
 }
 
@@ -87,20 +88,9 @@ h1 {
     }
 
     .box {
-        display: flex;
-        flex-wrap: nowrap;
+        width: 60%
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 /* FOR SOCIAL CSS */
 /* Footer styles (mobile first) */
@@ -119,7 +109,7 @@ footer {
 }
 
 .social li > a {
-    color: #212529;
+    color: #343A40;
     text-decoration: none;
     
 }
@@ -140,37 +130,11 @@ footer {
     .social li.social-icon {
         font-size: 8rem; 
     }
-
-    .box {
-        width: 100%;
-        padding: 1rem;
-        font-size: 2vw;
-    }
 }
 
 /* Tablet size */
 @media only screen and (min-width:701px) {
     .social li.social-icon {
         font-size: 10rem; 
-    }
-
-    .box {
-        width:90%;
-    }
-
-    .aboutme {
-        font-size: 4vw;
-        justify-content: center;
-        align-items: center;
-    }
-}
-/* Desktop and bigger screens */
-@media only screen and (min-width: 850px ) {
-    .box {
-        width: 60%
-    }
-
-    .aboutme {
-        font-size: 1.5vw
     }
 }
