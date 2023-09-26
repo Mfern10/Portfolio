@@ -35,9 +35,35 @@ The contact page contains a form that when filled out will send an email to my p
 
 
 # Screenshots
-## homepage
-! [Homepage](/screenshots/home.png)
-! [Homemobile](/screenshots/homemobile.png)
+
+I have included a Screenshot of each page and its mobile version.
+
+## HOME/INDEX
+![Homepage](imagesandcontent/screenshots/home.png)
+![homemobile](imagesandcontent/screenshots/homemobile.png)
+
+## ME
+![me](imagesandcontent/screenshots/me.png)
+![memobile](imagesandcontent/screenshots/memobile.png)
+
+## PORTFOLIO
+![portfolio](imagesandcontent/screenshots/portfolio.png)
+![portfoliomobile](imagesandcontent/screenshots/portfoliomobile.png)
+
+## BLOG
+![blog](imagesandcontent/screenshots/blog.png)
+![blogmobile](imagesandcontent/screenshots/Blogsmobile.png)
+
+## BLOG POSTS
+![blogpost](imagesandcontent/screenshots/blogpost.png)
+![blogpostmobile](imagesandcontent/screenshots/Blogpostmobile.png)
+
+## CONTACT
+![contact](imagesandcontent/screenshots/contact.png)
+![contactmobile](imagesandcontent/screenshots/Contactmobile.png)
+
+## Mobile Naviagtion
+![mobilenaviagtion](imagesandcontent/screenshots/navmobile.png)
 
 
 
