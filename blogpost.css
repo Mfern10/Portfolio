@@ -31,16 +31,18 @@ h1 {
     width: 100vw;
     margin-bottom: 3rem;
     margin-top: 7rem;
-    color:#212529;
+    color:#343A40;
 }
 
 h2 {
+    font-size: 2rem;
     text-align: center;
     color:#343A40;
     margin: 1rem;
 }
 
 h5 {
+    font-size: 1.3rem;
     text-align: center;
     color: #343A40;
 }
