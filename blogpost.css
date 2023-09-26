@@ -71,7 +71,7 @@ p {
 }
 
 
-
+/* MQ for Desktop and above previous CSS works for mobile and tablet */
 @media only screen and (min-width: 850px) {
 
     .posts-container {
@@ -98,28 +98,7 @@ p {
         border-radius: 20px;
         float: left;
     }
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* FOR SOCIAL CSS */
 /* Footer styles (mobile first) */
@@ -138,7 +117,7 @@ footer {
 }
 
 .social li > a {
-    color: #212529;
+    color: #343A40;
     text-decoration: none;
     
 }
