@@ -1,11 +1,14 @@
 # Links
 
+WEBSITE LINK: https://mitchellfernandez.vercel.app/index.html
+
+GITHUB LINK: https://github.com/Mfern10/Portfolio
 
 
 # Purpose
 
 I wanted to make my portfolio website very simple to navigate and read with a focus on minimalistic colours and properties.
-The design is meant to be soft on the eyes of the user and straight to the point of information. 
+The design is meant to be soft on the eyes of the user and straight to the point of information. I wanted to convery my portfolio website from my own design factors something that portrayed myself and my style to others.
 
 # Functionality/features
 
