@@ -1,3 +1,4 @@
+/* Reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -51,7 +52,7 @@ label {
   padding: 1rem;
   border-radius: 20px;
 }
-
+/* Adjusts form input styles */
 input[type="email"],
 textarea,
 input[type="name"] {
@@ -68,7 +69,7 @@ button {
   border: 2px solid #343a40;
   border-radius: 10px;
 }
-
+/* Media queries for form box responsiveness */
 @media only screen and (min-width: 850px) {
   .form-box {
     display: flex;
