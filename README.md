@@ -30,12 +30,6 @@ The contact page contains a form that when filled out will send an email to my p
 
 ![Site Map](docs/sitemap.png)
 
-
-
-
-
-
-
 # Screenshots
 
 I have included a Screenshot of each page and its mobile version.
@@ -100,4 +94,4 @@ The Target audience for my portfolio is potential employers. and educators to as
 - HTML
 - CSS
 - GitHub
-- Vercil
+- Vercel
