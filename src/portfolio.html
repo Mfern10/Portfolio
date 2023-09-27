@@ -9,6 +9,7 @@
   </head>
   <body>
     <header>
+      <!-- Navigation content for mobile view/ checkbox type -->
       <nav class="mobile-nav">
         <input type="checkbox" id="check" />
         <label for="check" class="checkbtn">
@@ -23,33 +24,32 @@
         </ul>
       </nav>
     </header>
-    <article>
-      <main>
-        <h1>MY WORK</h1>
-        <div class="container">
-          <div class="box">
-            <a href="https://github.com/Mfern10/Portfolio"
-              ><ion-icon class="project-icon" name="logo-github"></ion-icon
-            ></a>
-            <p class="mywork">
-              This is a Github Link to my first large project.
-              <strong>MY PORTFOLIO!</strong><br /><br />The Website you are
-              viewing is my current portfolio if you want to see how I created
-              this <strong>click the logo</strong> and check it out on GitHub! I
-              created this portfolio using <strong>HTML</strong> and
-              <strong>CSS</strong>.
-            </p>
-          </div>
-          <div class="box">
-            <a href="https://github.com/Mfern10"
-              ><ion-icon class="project-icon" name="logo-github"></ion-icon
-            ></a>
-            <p class="mywork"><strong>MORE PROJECTS COMING SOON!</strong></p>
-          </div>
-        </div>
-      </main>
-    </article>
-
+    <!-- main box section/and boxes with projects and links -->
+    <main>
+      <h1>MY WORK</h1>
+      <section class="container">
+        <article class="box">
+          <a href="https://github.com/Mfern10/Portfolio"
+            ><ion-icon class="project-icon" name="logo-github"></ion-icon
+          ></a>
+          <p class="mywork">
+            This is a Github Link to my first large project.
+            <strong>MY PORTFOLIO!</strong><br /><br />The Website you are
+            viewing is my current portfolio if you want to see how I created
+            this <strong>click the logo</strong> and check it out on GitHub! I
+            created this portfolio using <strong>HTML</strong> and
+            <strong>CSS</strong>.
+          </p>
+        </article>
+        <article class="box">
+          <a href="https://github.com/Mfern10"
+            ><ion-icon class="project-icon" name="logo-github"></ion-icon
+          ></a>
+          <p class="mywork"><strong>MORE PROJECTS COMING SOON!</strong></p>
+        </article>
+      </section>
+    </main>
+    <!-- Social bar showing social icons clickable -->
     <footer>
       <ul class="social">
         <li>
