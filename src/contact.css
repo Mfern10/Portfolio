@@ -15,23 +15,20 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  
 }
 
 h1 {
-    margin-top: 7rem;
-    text-align: center;
-    color:#343a40;
-    font-size: 4rem;
+  margin-top: 7rem;
+  text-align: center;
+  color: #343a40;
+  font-size: 4rem;
 }
 
 h2 {
   text-align: center;
-  color:#343a40;
+  color: #343a40;
   margin: 1rem;
 }
-
 
 form {
   display: flex;
@@ -43,7 +40,7 @@ form {
 
 label {
   font-size: 2rem;
-  color:#f8f9fa
+  color: #f8f9fa;
 }
 
 .form-box {
@@ -56,7 +53,8 @@ label {
 }
 
 input[type="email"],
-textarea, input[type="name"] {
+textarea,
+input[type="name"] {
   background-color: #f8f9fa;
   border: 2px solid #343a40;
   border-radius: 10px;
@@ -65,24 +63,21 @@ textarea, input[type="name"] {
 
 button {
   background-color: #f8f9fa;
-  color:#343a40;
+  color: #343a40;
   font-size: 2rem;
   border: 2px solid #343a40;
   border-radius: 10px;
 }
 
 @media only screen and (min-width: 850px) {
-    .form-box {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       width:30%
-       
-        
-    }
+  .form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+  }
 }
-
 
 /* FOR SOCIAL CSS */
 /* Footer styles (mobile first) */

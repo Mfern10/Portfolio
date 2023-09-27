@@ -1,150 +1,136 @@
-
-
 /* Body styles */
 body {
-    background-color: #F8F9FA;
+  background-color: #f8f9fa;
 }
 
 /* Main content styles (mobile first) */
 .box-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    min-height: 60vh;
-    padding: 1rem;
-    
-    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  padding: 1rem;
 }
 
 .box {
-    width: 100%;
-    background-color: #343A40;
-    border-radius: 20px;
-    padding: 1rem;
+  width: 100%;
+  background-color: #343a40;
+  border-radius: 20px;
+  padding: 1rem;
 }
 
 .aboutme {
-    color: #F8F9FA;
-    font-size: 8vw;
-    min-height: 30vh;
-    text-align: center;
-    
+  color: #f8f9fa;
+  font-size: 8vw;
+  min-height: 30vh;
+  text-align: center;
 }
 
 .box a {
-    display:flex;
-    justify-content: center;
-    color:#F8F9FA;
-    font-size: 2rem;
-    margin: 1rem 0 0 0;
-    
-    
-
+  display: flex;
+  justify-content: center;
+  color: #f8f9fa;
+  font-size: 2rem;
+  margin: 1rem 0 0 0;
 }
 
-
 .resume-icon {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 a:hover {
-    color: lightblue;
+  color: lightblue;
 }
 
 h1 {
-    text-align: center;
-    font-size: 4rem;
-    color:#343A40;
-    margin-top: 7rem;
+  text-align: center;
+  font-size: 4rem;
+  color: #343a40;
+  margin-top: 7rem;
 }
 
 .profile-img {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 img {
-    border-radius: 50%;
-    margin: 1rem;
-    border: 0.5rem solid #F8F9FA;
+  border-radius: 50%;
+  margin: 1rem;
+  border: 0.5rem solid #f8f9fa;
 }
-
 
 /* Footer styles (mobile first) */
 
 footer {
-    display: inline-block;
-    width: 100%;
-    bottom: 0;
+  display: inline-block;
+  width: 100%;
+  bottom: 0;
 }
 
 .social {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 1rem;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 1rem;
 }
 
 .social li > a {
-    color: #212529;
-    text-decoration: none;
-    
+  color: #212529;
+  text-decoration: none;
 }
 /* social list ref hover color */
 .social li > a:hover {
-    color: lightblue;
-    transition: color 0.2s;
+  color: lightblue;
+  transition: color 0.2s;
 }
 
 /* Social icon customisation */
 .social li .social-icon {
-    font-size: 5rem; 
-
+  font-size: 5rem;
 }
 
 /* Responsive MQ's  */
 @media only screen and (min-width: 401px) {
-    .social li.social-icon {
-        font-size: 8rem; 
-    }
+  .social li.social-icon {
+    font-size: 8rem;
+  }
 
-    .box {
-        width: 90%;
-        padding: 1rem;
-        
-    }
+  .box {
+    width: 90%;
+    padding: 1rem;
+  }
 
-    .aboutme {
-        font-size: 2rem;
-    }
+  .aboutme {
+    font-size: 2rem;
+  }
 }
 
 /* Tablet size */
-@media only screen and (min-width:701px) {
-    .social li.social-icon {
-        font-size: 8rem; 
-    }
+@media only screen and (min-width: 701px) {
+  .social li.social-icon {
+    font-size: 8rem;
+  }
 
-    .box {
-        width:85%;
-    }
+  .box {
+    width: 85%;
+  }
 
-    .aboutme {
-        font-size: 2rem;
-        justify-content: center;
-        align-items: center;
-    }
+  .aboutme {
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
 }
 /* Desktop and bigger screens */
-@media only screen and (min-width: 850px ) {
-    .box {
-        width: 70%
-    }
+@media only screen and (min-width: 850px) {
+  .box {
+    width: 70%;
+  }
 
-    .aboutme {
-        font-size: 1.5rem;
-    }
+  .aboutme {
+    font-size: 1.5rem;
+  }
 }

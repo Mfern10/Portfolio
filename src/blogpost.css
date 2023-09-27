@@ -1,141 +1,126 @@
-
-
 /* Body styles */
 body {
-    background-color: #F8F9FA;
+  background-color: #f8f9fa;
 }
-
-
 
 /* MAIN CONTENT CSS */
 
 .posts-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-container {
-    display: flex;
-    flex-direction: column;
-    background:#343A40;
-    border-radius: 20px;
-    margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  background: #343a40;
+  border-radius: 20px;
+  margin: 1rem;
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 4rem;
-    font-weight: bold;
-    width: 100vw;
-    margin-bottom: 3rem;
-    margin-top: 7rem;
-    color:#343A40;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  width: 100vw;
+  margin-bottom: 3rem;
+  margin-top: 7rem;
+  color: #343a40;
 }
 
 h2 {
-    font-size: 2rem;
-    text-align: center;
-    color:#343A40;
-    margin: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #343a40;
+  margin: 1rem;
 }
 
 h5 {
-    font-size: 1.3rem;
-    text-align: center;
-    color: #343A40;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #343a40;
 }
 
 .img-container {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
 }
 
 p {
-    text-align: center;
-    color:#F8F9FA;
-    margin: 1rem;
-    font-size: 1.5rem
-
+  text-align: center;
+  color: #f8f9fa;
+  margin: 1rem;
+  font-size: 1.5rem;
 }
-
-
 
 .blog-image {
-    border-radius: 10%;
-    border: 0.5rem solid #F8F9FA;
+  border-radius: 10%;
+  border: 0.5rem solid #f8f9fa;
 }
-
 
 /* MQ for Desktop and above previous CSS works for mobile and tablet */
 @media only screen and (min-width: 850px) {
+  .posts-container {
+    display: flex;
+    flex-direction: column;
 
-    .posts-container {
-        display: flex;
-        flex-direction: column;
-       
-        align-items: center;
+    align-items: center;
+  }
 
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
 
-    }
-
-    .main-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 70%;
-        
-      
-    }
-
-    .img-container {
-        background-color: #343A40;
-        border-radius: 20px;
-        float: left;
-    }
+  .img-container {
+    background-color: #343a40;
+    border-radius: 20px;
+    float: left;
+  }
 }
 
 /* FOR SOCIAL CSS */
 /* Footer styles (mobile first) */
 
 footer {
-    display: inline-block;
-    width: 100%;
-    bottom: 0;
+  display: inline-block;
+  width: 100%;
+  bottom: 0;
 }
 
 .social {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin: 1rem;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 1rem;
 }
 
 .social li > a {
-    color: #343A40;
-    text-decoration: none;
-    
+  color: #343a40;
+  text-decoration: none;
 }
 /* social list ref hover color */
 .social li > a:hover {
-    color: lightblue;
-    transition: color 0.2s;
+  color: lightblue;
+  transition: color 0.2s;
 }
 
 /* Social icon customisation */
 .social li .social-icon {
-    font-size: 4rem; 
-
+  font-size: 4rem;
 }
 
 /* Social MQ's  */
 @media only screen and (min-width: 401px) {
-    .social li.social-icon {
-        font-size: 8rem; 
-    }
+  .social li.social-icon {
+    font-size: 8rem;
+  }
 }
