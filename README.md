@@ -28,6 +28,8 @@ The contact page contains a form that when filled out will send an email to my p
 
 # Site Map
 
+![Site Map](docs/sitemap.png)
+
 
 
 
