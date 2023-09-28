@@ -100,3 +100,5 @@ The Target audience for my portfolio is potential employers. and educators to as
 - CSS
 - GitHub
 - Vercel
+- formspree.com
+- ionic.io
