@@ -40,28 +40,28 @@ The contact page contains a form that when filled out will send an email to my p
 I have included a Screenshot of each page and its mobile version.
 
 ## HOME/INDEX
-![Homepage](docs/desktophome.png)
-![homemobile](docs/mobilehome.png)
+![Homepage](docs/deskhome.png)
+![homemobile](docs/mobhome.png)
 
 ## ME
-![me](docs/desktopme.png)
-![memobile](docs/mobileme.png)
+![me](docs/deskme.png)
+![memobile](docs/mobme.png)
 
 ## PORTFOLIO
-![portfolio](docs/desktopportfolio.png)
-![portfoliomobile](docs/mobileportfolio.png)
+![portfolio](docs/deskportfolio.png)
+![portfoliomobile](docs/mobportfolio.png)
 
 ## BLOG
-![blog](docs/desktopblog.png)
-![blogmobile](docs/mobileblog.png)
+![blog](docs/deskblog.png)
+![blogmobile](docs/mobblog.png)
 
 ## BLOG POSTS
-![blogpost](docs/desktopblogpost.png)
-![blogpostmobile](docs/mobileblogpost.png)
+![blogpost](docs/deskblogpost.png)
+![blogpostmobile](docs/mobblogpost.png)
 
 ## CONTACT
-![contact](docs/desktopcontact.png)
-![contactmobile](docs/mobilecontact.png)
+![contact](docs/deskcontact.png)
+![contactmobile](docs/mobcontact.png)
 
 ## Mobile Naviagtion
 ![mobilenaviagtion](docs/mobilenav.png)
