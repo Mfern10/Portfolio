@@ -3,20 +3,7 @@ body {
   background-color: #f8f9fa;
 }
 
-/* MAIN CONTENT CSS */
-
-.posts-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.main-container {
-  display: flex;
-  flex-direction: column;
-  background: #343a40;
-  border-radius: 20px;
-  margin: 1rem;
-}
+/* Heading styles */
 
 h1 {
   display: flex;
@@ -41,6 +28,21 @@ h5 {
   font-size: 1.3rem;
   text-align: center;
   color: #343a40;
+  margin: 0.5rem;
+}
+
+/* Blog post styles */
+.posts-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background: #343a40;
+  border-radius: 20px;
+  margin: 1rem;
 }
 
 .img-container {
@@ -97,6 +99,7 @@ footer {
 }
 
 .copyright {
+  color: #343a40;
   display: flex;
   justify-content: center;
   font-size: 1.5rem;
