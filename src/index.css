@@ -71,7 +71,7 @@ img {
 footer {
   display: inline-block;
   width: 100%;
-  bottom: 0;
+  position: -webkit-sticky;
 }
 
 .copyright {
@@ -101,7 +101,7 @@ footer {
 
 /* Social icon customisation */
 #social li .social-icon {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 /* Responsiveness  MQ's  */
