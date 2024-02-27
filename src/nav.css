@@ -34,12 +34,12 @@ clickable icon to show menu from the left */
   color: #343a40;
   font-size: 1.5rem;
   text-transform: uppercase;
-  transition: 0.3s ease-in;
+  
 }
 
 .mobile-nav ul li a:hover {
   color: lightblue;
-  font-size: 2rem;
+  
 }
 
 .checkbtn {
