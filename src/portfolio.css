@@ -46,15 +46,14 @@ h1 {
 }
 
 /* MQ for above mobile sizing. */
-@media only screen and (min-width: 401px) {
+@media only screen and (min-width: 375px) {
   .mywork {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .box {
-    width: 100%;
-    padding: 1rem;
-    font-size: 2vw;
+    width: 95%;
+    
   }
 }
 
