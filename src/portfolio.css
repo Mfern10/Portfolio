@@ -28,19 +28,29 @@ h1 {
   margin: 1rem;
 }
 
+.box a {
+  text-decoration: none;
+  
+}
+
+.box a:hover {
+  background-color: rgb(61, 62, 62);
+}
+
 .project-icon {
   color: #f8f9fa;
   font-size: 5rem;
   float: left;
 }
 
-.project-icon:hover {
+/* .project-icon:hover {
   color: lightblue;
   transition: 0.2s;
-}
+} */
 
 .mywork {
   font-size: 1.5rem;
+  text-align: center;
   padding: 0.5rem;
   color: #f8f9fa;
 }
