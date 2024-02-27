@@ -30,17 +30,17 @@ h1 {
 
 .box a {
   text-decoration: none;
-  
 }
 
 .box a:hover {
-  background-color: rgb(61, 62, 62);
+  background-color: lightblue;
+  border-radius: 20px;
 }
 
 .project-icon {
   color: #f8f9fa;
   font-size: 5rem;
-  float: left;
+  float: center;
 }
 
 /* .project-icon:hover {
@@ -50,15 +50,16 @@ h1 {
 
 .mywork {
   font-size: 1.5rem;
-  text-align: center;
   padding: 0.5rem;
   color: #f8f9fa;
+  text-align: center;
 }
 
 /* MQ for above mobile sizing. */
 @media only screen and (min-width: 375px) {
   .mywork {
-    font-size: 1rem;
+    font-size: 1.3rem;
+    margin: 1rem;
   }
 
   .box {
